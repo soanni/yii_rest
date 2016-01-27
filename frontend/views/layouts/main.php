@@ -24,7 +24,6 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
 <div class="wrap">
     <?php
     NavBar::begin([
@@ -61,6 +60,12 @@ AppAsset::register($this);
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
+        <?php
+            $clock = \frontend\components\ClockWidget::begin();
+            \frontend\components\ClockWidget::end();
+        ?>
+        <br/>
+        <br/>
         <?= $content ?>
     </div>
 </div>
