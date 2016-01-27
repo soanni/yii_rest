@@ -1,0 +1,2275 @@
+2016-01-27 06:56:02 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('test-rest/index', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 06:56:02 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '3abd30fb-be03-84c3-9210-4766ba03d2ee'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40140'
+    'REDIRECT_URL' => '/test-rest/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test-rest/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453877762.236
+    'REQUEST_TIME' => 1453877762
+]
+2016-01-27 06:56:48 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('test-rest/index', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 06:56:47 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '28519a3b-7271-3cfc-3bc4-56ff2c03d339'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40150'
+    'REDIRECT_URL' => '/test-rest/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test-rest/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453877807.988
+    'REQUEST_TIME' => 1453877807
+]
+2016-01-27 06:56:59 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('test-rest/index', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 06:56:59 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '5f11b5d7-0689-76e5-b632-1631212edbdf'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40154'
+    'REDIRECT_URL' => '/test-rest/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/test-rest/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453877819.121
+    'REQUEST_TIME' => 1453877819
+]
+2016-01-27 07:15:21 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: PUT, PATCH.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\UpdateAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\UpdateAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/update', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:15:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40162'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/rooms/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/rooms/update?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453878921.917
+    'REQUEST_TIME' => 1453878921
+]
+2016-01-27 07:16:07 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\CreateAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\CreateAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:16:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40168'
+    'REDIRECT_URL' => '/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453878967.593
+    'REQUEST_TIME' => 1453878967
+]
+2016-01-27 07:16:17 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\CreateAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\CreateAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:16:17 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'f3c62298-b061-5932-3002-4566c30956f5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40170'
+    'REDIRECT_URL' => '/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453878977.597
+    'REQUEST_TIME' => 1453878977
+]
+2016-01-27 07:17:55 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET, HEAD.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:17:55 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '2fa4725a-cbc7-18f7-7c32-105ac4d762e1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40184'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879075.921
+    'REQUEST_TIME' => 1453879075
+]
+2016-01-27 07:19:23 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET, HEAD.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:19:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '6893408b-da7f-ae53-d5c6-2f09e6aebfb4'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40188'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879163.01
+    'REQUEST_TIME' => 1453879163
+]
+2016-01-27 07:19:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 100' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('100')
+#1 [internal function]: yii\rest\ViewAction->run('100')
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/view', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#8 {main}
+2016-01-27 07:19:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '100'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40192'
+    'REDIRECT_QUERY_STRING' => 'id=100'
+    'REDIRECT_URL' => '/rooms/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=100'
+    'REQUEST_URI' => '/rooms/view?id=100'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879193.531
+    'REQUEST_TIME' => 1453879193
+]
+2016-01-27 07:20:02 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET, HEAD.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\ViewAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\ViewAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/view', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:20:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '100'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '96576b1d-1dd2-59b4-cb8c-d6d5c5857840'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40194'
+    'REDIRECT_QUERY_STRING' => 'id=100'
+    'REDIRECT_URL' => '/rooms/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=100'
+    'REQUEST_URI' => '/rooms/view?id=100'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879202.429
+    'REQUEST_TIME' => 1453879202
+]
+2016-01-27 07:20:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 100' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('100')
+#1 [internal function]: yii\rest\ViewAction->run('100')
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/view', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#8 {main}
+2016-01-27 07:20:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '100'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'c0197258-66a9-7213-5268-f8129a67c681'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40196'
+    'REDIRECT_QUERY_STRING' => 'id=100'
+    'REDIRECT_URL' => '/rooms/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=100'
+    'REQUEST_URI' => '/rooms/view?id=100'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879210.431
+    'REQUEST_TIME' => 1453879210
+]
+2016-01-27 07:21:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 100' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('100')
+#1 [internal function]: yii\rest\ViewAction->run('100')
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/view', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#8 {main}
+2016-01-27 07:21:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '100'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '303b0809-f723-c53f-3f0f-68b6d38d9164'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40202'
+    'REDIRECT_QUERY_STRING' => 'id=100'
+    'REDIRECT_URL' => '/rooms/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => 'id=100'
+    'REQUEST_URI' => '/rooms/view?id=100'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879293.224
+    'REQUEST_TIME' => 1453879293
+]
+2016-01-27 07:24:04 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\CreateAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\CreateAction))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:24:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'fd6737ed-1b8d-73f9-f292-46a32ec65083'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40204'
+    'REDIRECT_URL' => '/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879444.164
+    'REQUEST_TIME' => 1453879444
+]
+2016-01-27 07:28:32 [127.0.0.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('{\n    "floor": ...', true)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('{\n    "floor": ...', 'application/jso...')
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\web\Request->getBodyParams()
+#4 [internal function]: yii\rest\CreateAction->run()
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('{\n    "floor": ...', 'application/jso...')
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\web\Request->getBodyParams()
+#2 [internal function]: yii\rest\CreateAction->run()
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:28:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '213'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '201b3207-71d7-c225-a937-f50b7b47a5ec'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40216'
+    'REDIRECT_URL' => '/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879712.797
+    'REQUEST_TIME' => 1453879712
+]
+2016-01-27 07:30:34 [127.0.0.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('[\n    {\n       ...', true)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('[\n    {\n       ...', 'application/jso...')
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\web\Request->getBodyParams()
+#4 [internal function]: yii\rest\CreateAction->run()
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('[\n    {\n       ...', 'application/jso...')
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\web\Request->getBodyParams()
+#2 [internal function]: yii\rest\CreateAction->run()
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/create', Array)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2016-01-27 07:30:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '257'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'b3faccb5-a549-33af-3cab-e1b2b72cfaff'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40224'
+    'REDIRECT_URL' => '/rooms/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453879834.941
+    'REQUEST_TIME' => 1453879834
+]
+2016-01-27 08:26:06 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+2016-01-27 08:26:06 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '0b4a40bc-3be3-df59-5eb7-fa1406a68421'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40484'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453883166.934
+    'REQUEST_TIME' => 1453883166
+]
+2016-01-27 08:26:10 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+2016-01-27 08:26:10 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'ca1dd939-2418-4e13-c818-9fca1bd832c6'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40484'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453883170.63
+    'REQUEST_TIME' => 1453883170
+]
+2016-01-27 08:26:11 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+2016-01-27 08:26:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'b14c1c1d-333d-b9f2-2014-73c045539b82'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40484'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453883171.344
+    'REQUEST_TIME' => 1453883171
+]
+2016-01-27 08:28:30 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+2016-01-27 08:28:30 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '639c964d-be7d-310f-62da-232bf9ac5994'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40490'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453883310.131
+    'REQUEST_TIME' => 1453883310
+]
+2016-01-27 08:28:59 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'call_user_func() expects parameter 1 to be a valid callback, class 'this' not found' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php:68
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate()
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction()
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): yii\base\ActionFilter->beforeFilter()
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): ::call_user_func:{/home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:541}()
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger()
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction()
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction()
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction()
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction()
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#10 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#11 {main}
+2016-01-27 08:28:59 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => 'fb2ff7ac-b902-4eff-de78-7d4b956e6bbc'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40494'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453883339.337
+    'REQUEST_TIME' => 1453883339
+]
+2016-01-27 08:29:32 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Command.php(373): yii\db\Command->queryInternal('fetch', NULL)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(300): yii\db\Query->one(NULL)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(26): yii\db\BaseActiveRecord::findOne(Array)
+#6 [internal function]: api\controllers\RoomsController->httpBasicAuthHandler('soanni', 'jd5xugLMrr')
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(68): call_user_func(Array, 'soanni', 'jd5xugLMrr')
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#10 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#15 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#17 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#19 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'
+The SQL being executed was: SELECT * FROM `user` WHERE (`username`='soanni') AND (`password`='$2y$13$K45cp7lXTuPkrChnvIKiRODtmhVEwk7oJ1jE9ADrjicAQjI9LiceK')' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Command.php(373): yii\db\Command->queryInternal('fetch', NULL)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(300): yii\db\Query->one(NULL)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(26): yii\db\BaseActiveRecord::findOne(Array)
+#6 [internal function]: api\controllers\RoomsController->httpBasicAuthHandler('soanni', 'jd5xugLMrr')
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(68): call_user_func(Array, 'soanni', 'jd5xugLMrr')
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#10 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#15 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#16 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#17 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#19 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'password' in 'where clause'
+)
+
+2016-01-27 08:29:31 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => '85d62ff9-d7d0-a892-961b-0ffa62b8bf75'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40496'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453883371.724
+    'REQUEST_TIME' => 1453883371
+]
+2016-01-27 08:29:55 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 08:29:54 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => '196dbbdb-a118-fbfe-e775-b799f96ba07c'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40498'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453883394.718
+    'REQUEST_TIME' => 1453883394
+]
+2016-01-27 08:30:00 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 08:29:59 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => 'e99f0a07-7948-cfb2-0bd9-a6624d5e202a'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40498'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453883399.512
+    'REQUEST_TIME' => 1453883399
+]
+2016-01-27 08:44:14 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: api\controllers\RoomsController::httpBasicAuthHandler()' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 [internal function]: yii\base\Component->__call('httpBasicAuthHa...', Array)
+#1 [internal function]: api\controllers\RoomsController->httpBasicAuthHandler('soanni', '$2a$12$qpuWBGpq...')
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(68): call_user_func(Array, 'soanni', '$2a$12$qpuWBGpq...')
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(73): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#7 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#16 {main}
+2016-01-27 08:44:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => 'e671eeaa-4871-4837-2590-97be31f9b8bd'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40514'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_TIME_FLOAT' => 1453884254.857
+    'REQUEST_TIME' => 1453884254
+]
+2016-01-27 08:44:47 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(73): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#14 {main}
+2016-01-27 08:44:46 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => '3c267aa4-9b04-d575-e0eb-21b3aacbee7f'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40518'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_TIME_FLOAT' => 1453884286.909
+    'REQUEST_TIME' => 1453884286
+]
+2016-01-27 08:45:30 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 08:45:30 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40524'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/access-token-by-user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453884330.275
+    'REQUEST_TIME' => 1453884330
+]
+2016-01-27 08:45:44 [127.0.0.1][1][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: username, hash' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#6 {main}
+2016-01-27 08:45:44 [127.0.0.1][1][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40526'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/access-token-by-user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884344.109
+    'REQUEST_TIME' => 1453884344
+]
+2016-01-27 08:45:57 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 08:45:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40528'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453884357.663
+    'REQUEST_TIME' => 1453884357
+]
+2016-01-27 08:47:21 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(73): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\CompositeAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#5 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#14 {main}
+2016-01-27 08:47:20 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => '8dcd0e69-0e21-1c25-39c9-d21cffedffa3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40540'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_TIME_FLOAT' => 1453884440.771
+    'REQUEST_TIME' => 1453884440
+]
+2016-01-27 08:48:16 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\CompositeAuth->beforeAction(Object(yii\rest\IndexAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 08:48:16 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40562'
+    'REDIRECT_URL' => '/rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1453884496.087
+    'REQUEST_TIME' => 1453884496
+]
+2016-01-27 08:48:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "favicon.ico".' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2016-01-27 08:48:30 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40566'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884510.016
+    'REQUEST_TIME' => 1453884510
+]
+2016-01-27 08:48:52 [127.0.0.1][1][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: username, hash' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#6 {main}
+2016-01-27 08:48:52 [127.0.0.1][1][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40586'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rooms/access-token-by-user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884532.347
+    'REQUEST_TIME' => 1453884532
+]
+2016-01-27 08:49:27 [127.0.0.1][1][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: hash' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#6 {main}
+2016-01-27 08:49:26 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'soanni?hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40590'
+    'REDIRECT_QUERY_STRING' => 'username=soanni?hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=soanni?hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_URI' => '/rooms/access-token-by-user?username=soanni?hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884566.842
+    'REQUEST_TIME' => 1453884566
+]
+2016-01-27 08:49:40 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\User::status' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(247): yii\base\Component->__get('status')
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/validators/DefaultValueValidator.php(46): yii\db\BaseActiveRecord->__get('status')
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/validators/Validator.php(240): yii\validators\DefaultValueValidator->validateAttribute(Object(common\models\User), 'status')
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Model.php(352): yii\validators\Validator->validateAttributes(Object(common\models\User), Array)
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(524): yii\base\Model->validate(NULL)
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(595): yii\db\ActiveRecord->update(true, NULL)
+#6 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(54): yii\db\BaseActiveRecord->save()
+#7 [internal function]: api\controllers\RoomsController->actionAccessTokenByUser('soanni', '$2a$12$qpuWBGpq...')
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#14 {main}
+2016-01-27 08:49:40 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'soanni'
+    'hash' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40594'
+    'REDIRECT_QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_URI' => '/rooms/access-token-by-user?username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884580.381
+    'REQUEST_TIME' => 1453884580
+]
+2016-01-27 08:53:43 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\User::updated_at' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(267): yii\base\Component->__set('updated_at', 1453884823)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(99): yii\db\BaseActiveRecord->__set('updated_at', 1453884823)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(888): yii\base\Component->trigger('beforeUpdate', Object(yii\base\ModelEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(708): yii\db\BaseActiveRecord->beforeSave(false)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(530): yii\db\BaseActiveRecord->updateInternal(NULL)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(595): yii\db\ActiveRecord->update(true, NULL)
+#8 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(54): yii\db\BaseActiveRecord->save()
+#9 [internal function]: api\controllers\RoomsController->actionAccessTokenByUser('soanni', '$2a$12$qpuWBGpq...')
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#16 {main}
+2016-01-27 08:53:43 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'soanni'
+    'hash' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40598'
+    'REDIRECT_QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_URI' => '/rooms/access-token-by-user?username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884823.229
+    'REQUEST_TIME' => 1453884823
+]
+2016-01-27 08:55:02 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\User::updated_at' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(267): yii\base\Component->__set('updated_at', 1453884902)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(99): yii\db\BaseActiveRecord->__set('updated_at', 1453884902)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(888): yii\base\Component->trigger('beforeUpdate', Object(yii\base\ModelEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(708): yii\db\BaseActiveRecord->beforeSave(false)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(530): yii\db\BaseActiveRecord->updateInternal(NULL)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(595): yii\db\ActiveRecord->update(true, NULL)
+#8 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(54): yii\db\BaseActiveRecord->save()
+#9 [internal function]: api\controllers\RoomsController->actionAccessTokenByUser('soanni', '$2a$12$qpuWBGpq...')
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#16 {main}
+2016-01-27 08:55:01 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'soanni'
+    'hash' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40602'
+    'REDIRECT_QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_URI' => '/rooms/access-token-by-user?username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884901.917
+    'REQUEST_TIME' => 1453884901
+]
+2016-01-27 08:55:04 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\User::updated_at' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(267): yii\base\Component->__set('updated_at', 1453884904)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(99): yii\db\BaseActiveRecord->__set('updated_at', 1453884904)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(888): yii\base\Component->trigger('beforeUpdate', Object(yii\base\ModelEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(708): yii\db\BaseActiveRecord->beforeSave(false)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(530): yii\db\BaseActiveRecord->updateInternal(NULL)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(595): yii\db\ActiveRecord->update(true, NULL)
+#8 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(54): yii\db\BaseActiveRecord->save()
+#9 [internal function]: api\controllers\RoomsController->actionAccessTokenByUser('soanni', '$2a$12$qpuWBGpq...')
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#16 {main}
+2016-01-27 08:55:03 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'soanni'
+    'hash' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40604'
+    'REDIRECT_QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_URI' => '/rooms/access-token-by-user?username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884903.988
+    'REQUEST_TIME' => 1453884903
+]
+2016-01-27 08:55:05 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\User::updated_at' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(267): yii\base\Component->__set('updated_at', 1453884905)
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(99): yii\db\BaseActiveRecord->__set('updated_at', 1453884905)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(888): yii\base\Component->trigger('beforeUpdate', Object(yii\base\ModelEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(708): yii\db\BaseActiveRecord->beforeSave(false)
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(530): yii\db\BaseActiveRecord->updateInternal(NULL)
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(595): yii\db\ActiveRecord->update(true, NULL)
+#8 /home/soanni/public_html/yii_advanced/api/controllers/RoomsController.php(54): yii\db\BaseActiveRecord->save()
+#9 [internal function]: api\controllers\RoomsController->actionAccessTokenByUser('soanni', '$2a$12$qpuWBGpq...')
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('access-token-by...', Array)
+#13 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rooms/access-to...', Array)
+#14 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#16 {main}
+2016-01-27 08:55:05 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'soanni'
+    'hash' => '$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40606'
+    'REDIRECT_QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REDIRECT_URL' => '/rooms/access-token-by-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'REQUEST_URI' => '/rooms/access-token-by-user?username=soanni&hash=$2a$12$qpuWBGpqI5KzhOWYIYrzv.S.t5nSEqp4.P/3IUQarVl6okcv2lZme'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453884905.31
+    'REQUEST_TIME' => 1453884905
+]
+2016-01-27 09:18:59 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'api\controllers\User' not found' in /home/soanni/public_html/yii_advanced/api/controllers/ReservationsController.php:43
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(68): ::call_user_func:{/home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php:68}()
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate()
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction()
+#3 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): yii\base\ActionFilter->beforeFilter()
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): ::call_user_func:{/home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php:541}()
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger()
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction()
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction()
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction()
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction()
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 09:18:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40672'
+    'REDIRECT_URL' => '/reservations/index-with-rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/reservations/index-with-rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMrr'
+    'REQUEST_TIME_FLOAT' => 1453886338.988
+    'REQUEST_TIME' => 1453886338
+]
+2016-01-27 09:20:04 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index-with-room...', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('reservations/in...', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 09:20:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => 'feb52959-6051-942e-5a43-438ef3d92fd3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40684'
+    'REDIRECT_URL' => '/reservations/index-with-rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/reservations/index-with-rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMr'
+    'REQUEST_TIME_FLOAT' => 1453886404.31
+    'REQUEST_TIME' => 1453886404
+]
+2016-01-27 09:20:09 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index-with-room...', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('reservations/in...', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 09:20:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => '2c6d1cb9-f9b7-5e88-1323-e50cb86bbefd'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40684'
+    'REDIRECT_URL' => '/reservations/index-with-rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/reservations/index-with-rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMr'
+    'REQUEST_TIME_FLOAT' => 1453886409.118
+    'REQUEST_TIME' => 1453886409
+]
+2016-01-27 09:20:14 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(72): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(50): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index-with-room...', Array)
+#9 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('reservations/in...', Array)
+#10 /home/soanni/public_html/yii_advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/soanni/public_html/yii_advanced/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+2016-01-27 09:20:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.yiiad.ubuntu'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_POSTMAN_TOKEN' => '069726fe-36f4-5f92-0bda-cdf70d6451a2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at api.yiiad.ubuntu Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'api.yiiad.ubuntu'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/soanni/public_html/yii_advanced/api/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/soanni/public_html/yii_advanced/api/web/index.php'
+    'REMOTE_PORT' => '40684'
+    'REDIRECT_URL' => '/reservations/index-with-rooms'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/reservations/index-with-rooms'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'soanni'
+    'PHP_AUTH_PW' => 'jd5xugLMr'
+    'REQUEST_TIME_FLOAT' => 1453886414.357
+    'REQUEST_TIME' => 1453886414
+]
